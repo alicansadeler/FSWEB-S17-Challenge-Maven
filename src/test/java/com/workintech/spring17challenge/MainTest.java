@@ -1,9 +1,11 @@
 package com.workintech.spring17challenge;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.workintech.spring17challenge.entity.*;
+import com.workintech.spring17challenge.entity.Course;
+import com.workintech.spring17challenge.entity.Grade;
 import com.workintech.spring17challenge.exceptions.ApiErrorResponse;
 import com.workintech.spring17challenge.exceptions.ApiException;
+import com.workintech.spring17challenge.model.*;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
